@@ -1012,7 +1012,6 @@ div.cta {
 
 .cta p {
 	font-size: 16px;
-	color: rgba(0,0,0,0.70);
 	line-height: 22px;
 }
 
@@ -1072,24 +1071,97 @@ div.cta {
 	border-radius: 4px;
 }
 
-.center {
-	text-align: center;
+p.quote {
+	font-weight: 300;
+	font-size: 32px;
+	color: rgba(0,0,0,0.70);
+	line-height: 1.3em;
+
+	margin: 50px 0 10px 0;
+}
+
+p.attribution {
+	font-style: italic;
+	font-size: 18px;
+	color: rgba(0,0,0,0.70);
+	line-height: 24px;
+
+	margin-bottom: 40px;
+}
+
+.speakers {
+	display: flex;
+	flex-direction: row;
+}
+
+.speakers-primary {
+	flex: 2 1 auto;
+	padding: 0 60px 0 0;
+
+	/*outline: solid 1px green;*/
+}
+
+.speakers-secondary {
+	flex: 1 1 800px;
+
+	/*outline: solid 1px red;*/
+}
+
+.recent-speakers p {
+	font-size: 14px;
+	color: rgba(0,0,0,0.40);
+	line-height: 1.0em;
+
+	padding: 0 60px 8px 0;
+
+}
+
+.recent-speakers p.intro {
+	font-size: 16px;
+	color: rgba(0,0,0,0.70);
+	line-height: 22px;
+	margin-bottom: 4px;
 }
 
 /*--------------------------------------------------------------
 ## Inforum shared sections
 --------------------------------------------------------------*/
 
+.center {
+	text-align: center;
+}
+
 .section {
 	padding: 68px 68px;
+	justify-content: center;
+}
+
+.section-content {
+	margin: auto;
+	max-width: 800px;
+}
+
+.width-medium {
+	max-width: 680px;
+}
+
+.width-wide {
+	/* Default for .section-content */
+	max-width: 800px;
+}
+
+.width-full {
+	max-width: 100%;
 }
 
 .section-light {
 	background-color: #FFF;
+	color: rgba(0,0,0,0.70);
 }
 
 .section-medium {
 	background-color: #FCFCFC;
+	color: rgba(0,0,0,0.70);
 }
 
 .section-dark {
@@ -1112,6 +1184,54 @@ h1 {
 h2 {
 	text-transform: uppercase;
 	font-size: 36px;
-	color: rgba(0,0,0,0.70);
 	line-height: 36px;
 }
+
+h3 {
+	font-size: 32px;
+	font-weight: 300;
+	color: rgba(0,0,0,0.70);
+	line-height: 1.3em;
+}
+
+footer p {
+	font-size: 14px;
+	color: rgba(0,0,0,0.40);
+	line-height: 1.3em;
+	margin-bottom: 4px;
+}
+
+footer a:link {
+	color: rgba(0,0,0,0.40);
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: rgba(0,0,0,0.40);
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+
+/*--------------------------------------------------------------
+## Inforum: Media queries
+--------------------------------------------------------------*/
+
+@media all and (min-width: 600px) {
+  /*.aside { flex: 1 auto; }*/
+
+	/*.center > * {
+		padding: auto;
+		justify-content: center;
+	}*/
+}
+
+/*@media all and (min-width: 800px) {*/
+  /*.main    { flex: 3 0px; }
+  .aside-1 { order: 1; }
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }*/
+/*}*/
