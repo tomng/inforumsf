@@ -18,9 +18,8 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="section section-medium">
-				<div class="cta">
-
+			<div class="thin-section section-medium">
+				<div class="section-content">
 						<!-- Begin MailChimp Signup Form -->
 						<div id="mc_embed_signup">
 						<form action="//scoutdeck.us9.list-manage.com/subscribe/post?u=36e914627db788cc67da179a9&amp;id=f87f2c9504" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
@@ -37,7 +36,6 @@ get_header(); ?>
 						</form>
 						</div>
 						<!--End mc_embed_signup-->
-
 				</div>
 			</div>
 
@@ -122,13 +120,27 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="section section-dark center">
-				<div class="section-content width-medium">
-					<h2>Who’s next? Learn when amazing speakers come to SF</h2>
-					<div class="cta">
-						<p class="prompt">Don’t miss conversations that inspire you. Sign up to get the inside scoop about upcoming events in your inbox.</p>
-						<div class="temp-email"></div>
-					</div>
+			<div class="thin-section section-dark">
+				<div class="section-content">
+					<h2 class="center">Join conversations that inspire you.</h2>
+
+							<!-- Begin MailChimp Signup Form -->
+							<div id="mc_embed_signup">
+							<form action="//scoutdeck.us9.list-manage.com/subscribe/post?u=36e914627db788cc67da179a9&amp;id=f87f2c9504" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							    <div id="mc_embed_signup_scroll" class="cta-form">
+										<label for="mce-EMAIL" class="prompt">Get the inside scoop about upcoming Inforum events in your inbox.</label>
+
+										<div class="signup">
+											<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
+									    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+									    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_36e914627db788cc67da179a9_f87f2c9504" tabindex="-1" value=""></div>
+									    <input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" class="button">
+										</div>
+							    </div>
+							</form>
+							</div>
+							<!--End mc_embed_signup-->
+
 				</div>
 			</div>
 

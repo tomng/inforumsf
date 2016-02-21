@@ -1039,14 +1039,6 @@ footer {
 	line-height: 28px;
 }
 
-div.cta {
-}
-
-.cta p {
-	font-size: 16px;
-	line-height: 22px;
-}
-
 .cta-form {
 	display: flex;
 	font-size:18px;
@@ -1099,8 +1091,15 @@ div.cta {
 	/*min-width: 280px;*/
 
 	flex: 2;
-	border: solid 2px rgba(0, 0, 0, 0.8);
 	background-color: #FFF;
+}
+
+.section-medium .cta-form input[type=email] {
+	border: solid 2px rgba(0, 0, 0, 0.8);
+}
+
+.section-dark .cta-form input[type=email] {
+	border: solid 2px #FFF;
 }
 
 .cta-form input[type=submit] {
@@ -1225,6 +1224,11 @@ p.attribution {
 
 .section {
 	padding: 68px 68px;
+	justify-content: center;
+}
+
+.thin-section {
+	padding: 28px 68px;
 	justify-content: center;
 }
 
