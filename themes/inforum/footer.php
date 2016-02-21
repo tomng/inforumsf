@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
+	<footer id="colophon" class="site-footer section-medium" role="contentinfo">
 		<div class="site-info">
 			<p>Inforum is an innovation lab at the <a href="http://commonwealthclub.org">Commonwealth Club of California</a>, a 501(3)c nonprofit</p>
 			<p>555 Post Street, San Francisco, California / <a href="mailto:inforum@commonweaslthclub.org">inforum@commonwealthclub.org</a> / (415) 597-6731</p>

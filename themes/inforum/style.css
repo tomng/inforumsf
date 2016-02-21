@@ -1047,8 +1047,68 @@ div.cta {
 	line-height: 22px;
 }
 
-.cta .temp-email {
+.cta-form {
+	display: flex;
+	font-size:18px;
 
+	flex-flow: row wrap;
+	align-items: center;
+	/*outline: solid 1px red;*/
+
+}
+
+.cta-form .prompt {
+	margin-right: 20px;
+	margin-bottom: 10px;
+
+	display: flex;
+	flex: 1;
+
+	/*outline: solid 1px yellow;*/
+}
+
+.cta-form .signup {
+	display: flex;
+	align-items: stretch;
+	flex: 2;
+	flex-flow: row wrap;
+}
+
+.cta-form input {
+	font-size: 18px;
+	padding: 8px 16px;
+	border-radius: 0;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+	/* Get rid of janky browser defaults */
+  appearance: none;
+  box-shadow: none;
+	text-shadow: none;
+  border-radius: 0;
+	border: none;
+}
+
+.cta-form input:hover {
+	/* Get rid of janky browser defaults */
+  appearance: none;
+  box-shadow: none;
+}
+
+.cta-form input[type=email] {
+	/*min-width: 280px;*/
+
+	flex: 2;
+	border: solid 2px rgba(0, 0, 0, 0.8);
+	background-color: #FFF;
+}
+
+.cta-form input[type=submit] {
+	flex: 1;
+	color: #FFF;
+	background-color: #E87F30;
+	text-transform: uppercase;
+	border: solid 2px #E87F30;
 }
 
 .upcoming-events {
