@@ -995,19 +995,23 @@ ul.nav-menu {
 .nav-menu .page_item {
 	flex-shrink: 0;
 
-	padding: 4px 0 0 16px;
-	margin: 0px 4px;
-	/*outline: solid 1px blue;*/
-
 	text-transform: uppercase;
 	font-size: 14px;
+	font-weight: 600;
 	color: rgba(0,0,0,0.70);
 	line-height: 18px;
 
 }
 
 .page_item a {
+
+	padding: 8px 12px 8px 12px;
+	margin: 0px 4px;
+
 	color: rgba(0,0,0,0.70);
+
+
+	/*outline: solid 1px blue;*/
 }
 
 footer {

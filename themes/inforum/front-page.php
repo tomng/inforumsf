@@ -10,9 +10,12 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="hero">
-				<h1>Make your weeknights memorable.</h1>
-				<p>Inspired, unscripted conversations with leaders in politics, culture, tech, business, social issues, design, and more. <strong>Join us at Inforum.</strong></p>
+			<div class="hero section section-light">
+
+				<div class="section-content">
+					<h1>Make your weeknights memorable.</h1>
+					<p>Inspired, unscripted conversations with leaders in politics, culture, tech, business, social issues, design, and more. <strong>Join us at Inforum.</strong></p>
+				</div>
 			</div>
 
 			<div class="section section-medium">
