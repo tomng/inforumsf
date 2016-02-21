@@ -122,7 +122,7 @@ get_header(); ?>
 
 			<div class="thin-section section-dark">
 				<div class="section-content">
-					<h2 class="center">Join conversations that inspire you.</h2>
+					<h2 class="center">Join conversations that inspire you</h2>
 
 							<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">
