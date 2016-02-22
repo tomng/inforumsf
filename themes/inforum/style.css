@@ -969,7 +969,7 @@ body {
 
 header {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	padding: 20px 68px;
 
 	background-color: #FFF;
@@ -978,14 +978,16 @@ header {
 }
 
 .site-branding {
+	flex-shrink: 0;
 	margin-right: 30px;
 	/*border: solid 1px red;*/
 }
 
 nav {
+	flex-shrink: 1;
 }
 
-ul.nav-menu {
+nav ul.nav-menu {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
@@ -1572,6 +1574,12 @@ footer a:hover {
 
 @media all
 	and (max-width: 500px) {
+
+	nav ul.nav-menu {
+		flex-flow: column wrap;
+		align-items: flex-end;
+
+	}
 
 	.hero {
 
