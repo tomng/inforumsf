@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="hero section section-light">
+			<div class="hero thin-section section-light">
 
 				<div class="section-content">
 					<h1>Make your weeknights memorable.</h1>
@@ -41,6 +41,7 @@ get_header(); ?>
 
 			<div class="upcoming-events center section section-dark">
 				<div class="tag">Upcoming Events</div>
+				<p>Grab a drink, bring a friend, and enjoy awesome conversations.</p>
 				<div class="event">
 					<h1>Senator Cory Booker</h1>
 					<h2>In conversation with Lt. Governor Gavin Newsom</h2>
