@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="hero section section-dark">
+			<div class="hero section">
 				<div class="section-content">
 					<h1>Meet</br/><span id="caption" class="typewriter"></span><span id="cursor" style="font-weight: 100;">|</span> <br/>shaping what</br/>matters to you</h1>
 					<h2>In person, live in San Francisco.</h2>
@@ -87,7 +87,7 @@ get_header(); ?>
 
 			<div class="thin-section section-dark" style="padding-bottom: 60px">
 				<div class="section-content">
-					<h2>Join conversations that inspire you.</h2>
+					<h2>Join conversations that inspire you</h2>
 
 							<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">

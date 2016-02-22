@@ -1191,6 +1191,14 @@ ul.nav-menu {
 }
 
 .upcoming-events {
+	/* Blue linear bg: */
+	/*background-image: linear-gradient(135deg, #00132D 0%, #003697 100%);*/
+
+	/* Blue theater linear bg: */
+	background-image: linear-gradient(180deg, #00132D 0%, #003697 100%);
+
+	/* Blue radial bg: */
+	/*background-image: radial-gradient(circle at bottom right, #003697 0%, #00132D 100%);*/
 }
 
 .tag {
@@ -1447,7 +1455,15 @@ p.attribution {
 }
 
 .section-dark {
-	background-color: #1F4F7F;
+	/*background-color: #1F4F7F;*/
+
+	/*background-color: #00132D;*/
+
+	background-color: #002C6D;
+
+	/* Blue bg: */
+	/*background-image: linear-gradient(135deg, #00132D 0%, #003697 100%);*/
+
 	color: white;
 }
 
@@ -1548,11 +1564,20 @@ footer a:hover {
 		/*background-color: red;*/
 		/*background: #1F4F7F;*/
 
-		background:
+		/*background-image: linear-gradient(135deg, #00132D 0%, #003697 100%);*/
+
+		/*background:
+			linear-gradient(135deg, rgba(0, 19, 45, 1.0) 0%, rgba(0, 54, 151, 0.7) 100%),
+			url('images/hero-placeholder.jpg')
+			no-repeat center center fixed;
+		background-size: cover;*/
+
+
+		/*background:
 			linear-gradient(-180deg, rgba(31, 79, 127, 1.0) 0%, rgba(31, 79, 127, 0.7) 100%),
 			url('images/hero-placeholder.jpg')
 			no-repeat center center fixed;
-		background-size: cover;
+		background-size: cover;*/
 
 		transition: all 0.5s ease-in-out;
 	}
@@ -1567,6 +1592,10 @@ footer a:hover {
 
 	.hero h2 {
 		font-size: 26px;
+	}
+
+	.hero .typewriter {
+		/*color: #2B7CFB;*/
 	}
 
 	.event .main .photo {
