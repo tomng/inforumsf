@@ -1105,7 +1105,6 @@ ul.nav-menu {
   border: 1px solid rgba(81, 203, 238, 1);*/
 }
 
-
 .section-medium .cta-form input[type=email] {
 	border: solid 2px rgba(0, 0, 0, 0.8);
 }
@@ -1136,28 +1135,33 @@ ul.nav-menu {
 	display: inline;
 }
 
+.event {
+	margin: 100px 0px;
+}
+
 .upcoming-events h1 {
 	margin:48px 0 10px 0;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 68px;
+	font-size: 78px;
+	line-height: 1.0em;
 	letter-spacing: -0.035em;
 	color: #FFFFFF;
-	line-height: 66px;
 }
 
 .upcoming-events h2 {
-	margin: 0 0 10px 0;
+	margin: 0 0 20px 0;
 	text-transform: uppercase;
 
 	font-weight: 200;
-	font-size: 28px;
+	font-size: 32px;
+	letter-spacing: 2px;
 	color: #FFFFFF;
-	line-height: 28px;
+	line-height: 1.1em;
 }
 
 .upcoming-events .info {
-	margin: 12px 0;
+	margin: 10px 0;
 	opacity: 0.6;
 }
 
@@ -1355,7 +1359,7 @@ footer a:hover {
 	}*/
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 600px) {
 
 	.section {
 		padding: 68px 28px;
@@ -1365,10 +1369,18 @@ footer a:hover {
 		padding: 28px 28px;
 	}
 
-
 	header {
 		padding: 20px 28px;
 	}
+
+
+	.upcoming-events h1 {
+		font-size: 48px;
+	}
+
+	.upcoming-events h2 {
+		font-size: 22px;
+		letter-spacing: 2px;
 }
 
 /*@media all and (min-width: 800px) {*/
