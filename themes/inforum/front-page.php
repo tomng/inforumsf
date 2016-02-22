@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<div class="hero section section-light">
 
-					<h1>Make your weeknights memorable.</h1>
+					<h1>Meet thinkers shaping what matters to you</h1>
 					<p>Inspired, unscripted conversations with leaders in politics, culture, tech, business, social issues, design, and more. <strong>Join us at Inforum.</strong></p>
 			</div>
 
@@ -41,21 +41,31 @@ get_header(); ?>
 				<div class="tag">Upcoming Events</div>
 				<p>Grab a drink, bring a friend, and enjoy awesome conversations.</p>
 				<div class="event">
-					<h1>Senator Cory Booker</h1>
-					<h2>In conversation with Lt. Governor Gavin Newsom</h2>
-					<div class="info">
-						<span class="date">Friday, February 19, 2016</span> / <span class="time">7:00pm-9:00pm</span> / <span class="location">Castro Theatre</span>
+
+					<div class="main">
+						<div class="headline">
+							<h1>Senator Cory Booker</h1>
+							<h2>In conversation with Lt. Governor Gavin Newsom</h2>
+						</div>
+						<img class="photo" />
 					</div>
-					<div class="get-tickets">
-						Get Tickets
+
+					<div class="details">
+						<div class="info">
+							<span class="date">Friday, February 19, 2016</span> / <span class="time">7:00pm-9:00pm</span> / <span class="location">Castro Theatre</span>
+						</div>
+						<div class="get-tickets">
+							Get Tickets
+						</div>
 					</div>
+
 				</div>
 			</div>
 
 			<div class="section section-medium">
 
 				<div class="section-content width-medium">
-					<h2>What people are saying</h2>
+					<h2>Make your weeknights memorable</h2>
 
 					<p class="quote">“INFORUM… has made a habit of programming insightful, celebrity-status speakers to discuss today’s critical issues”</p>
 					<p class="attribution">San Francisco Magazine</p>
@@ -71,7 +81,7 @@ get_header(); ?>
 
 			<div class="thin-section section-dark" style="padding-bottom: 60px">
 				<div class="section-content">
-					<h2>Join conversations that inspire you.</h2>
+					<h2>Join conversations that will inspire you.</h2>
 
 							<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">
