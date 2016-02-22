@@ -11,10 +11,12 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<div class="hero section section-dark">
-
+				<div class="section-content">
 					<h1>Meet thinkers shaping what matters to you</h1>
 					<h2>In person, live in San Francisco.</h2>
+				</div>
 			</div>
+
 
 			<div class="thin-section section-medium">
 				<div class="section-content">
@@ -28,7 +30,7 @@ get_header(); ?>
 										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
 								    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 								    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_36e914627db788cc67da179a9_f87f2c9504" tabindex="-1" value=""></div>
-								    <input type="submit" value="Join Us" name="subscribe" id="mc-embedded-subscribe" class="button">
+								    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
 									</div>
 						    </div>
 						</form>
@@ -38,56 +40,61 @@ get_header(); ?>
 			</div>
 
 			<div class="upcoming-events section section-dark">
-				<div class="tag">Upcoming Events</div>
-				<p>Grab a drink, bring a friend, and enjoy awesome conversations.</p>
-				<div class="event">
 
-					<div class="main">
-						<div class="headline">
-							<h1>Senator Cory Booker</h1>
-							<h2>In conversation with Lt. Governor Gavin Newsom</h2>
+				<div class="section-content">
+
+					<div class="tag">Upcoming Events</div>
+					<p>Grab a drink, bring a friend, and enjoy awesome conversations.</p>
+					<div class="event">
+
+						<div class="main">
+							<div class="headline">
+								<h1>Senator Cory Booker</h1>
+								<h2>In conversation with Lt. Governor Gavin Newsom</h2>
+							</div>
+							<img class="photo" />
 						</div>
-						<img class="photo" />
+
+						<div class="details">
+							<div class="info">
+								<span class="date">Friday, February 19, 2016</span> / <span class="time">7:00pm-9:00pm</span> / <span class="location">Castro Theatre</span>
+							</div>
+							<div class="get-tickets">
+								Get Tickets
+							</div>
+						</div>
 					</div>
-
-					<div class="details">
-						<div class="info">
-							<span class="date">Friday, February 19, 2016</span> / <span class="time">7:00pm-9:00pm</span> / <span class="location">Castro Theatre</span>
-						</div>
-						<div class="get-tickets">
-							Get Tickets
-						</div>
-					</div>
-
 				</div>
 			</div>
 
 			<div class="section section-medium">
 
-				<div class="section-content width-medium">
+				<div class="section-content">
 					<h2>Make your weeknights memorable</h2>
 
-					<p class="quote">“INFORUM… has made a habit of programming insightful, celebrity-status speakers to discuss today’s critical issues”</p>
-					<p class="attribution">San Francisco Magazine</p>
+					<div class="quotes width-medium">
+						<p class="quote">“INFORUM… has made a habit of programming insightful, celebrity-status speakers to discuss today’s critical issues”</p>
+						<p class="attribution">San Francisco Magazine</p>
 
-					<p class="quote">Recommended for singles looking for a “presidential forum and hang-out”</p>
-					<p class="attribution">Los Angeles Times</p>
+						<p class="quote">Recommended for singles looking for a “presidential forum and hang-out”</p>
+						<p class="attribution">Los Angeles Times</p>
 
-					<p class="quote">“One of the city’s most treasured institutions”</p>
-					<p class="attribution">San Francisco Chronicle</p>
+						<p class="quote">“One of the city’s most treasured institutions”</p>
+						<p class="attribution">San Francisco Chronicle</p>
+					</div>
 
 				</div>
 			</div>
 
 			<div class="thin-section section-dark" style="padding-bottom: 60px">
 				<div class="section-content">
-					<h2>Join conversations that will inspire you.</h2>
+					<h2>Join conversations that inspire you.</h2>
 
 							<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">
 							<form action="//scoutdeck.us9.list-manage.com/subscribe/post?u=36e914627db788cc67da179a9&amp;id=f87f2c9504" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							    <div id="mc_embed_signup_scroll" class="cta-form">
-										<label for="mce-EMAIL" class="prompt">Get the inside scoop about upcoming Inforum events in your inbox.</label>
+										<label for="mce-EMAIL" class="prompt">Get the inside scoop about upcoming Inforum SF events in your inbox.</label>
 
 										<div class="signup">
 											<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>

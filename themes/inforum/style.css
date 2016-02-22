@@ -1044,6 +1044,8 @@ ul.nav-menu {
 	line-height: 1.0em;
 	color: #fff;
 
+	margin-bottom: 10px;
+
 	/*outline: solid 1px blue;*/
 }
 
@@ -1064,15 +1066,17 @@ ul.nav-menu {
 
 .cta-form {
 	display: flex;
-	font-size:18px;
+	font-size:22px;
 
 	flex-flow: row wrap;
+	align-items: center;
 	/*outline: solid 1px red;*/
 
 }
 
 .cta-form .prompt {
-	margin-right: 20px;
+	font-weight: 500;
+	margin-right: 30px;
 	margin-bottom: 10px;
 
 	display: flex;
@@ -1089,7 +1093,7 @@ ul.nav-menu {
 }
 
 .cta-form input {
-	font-size: 18px;
+	font-size: 22px;
 	padding: 8px 16px;
 	border-radius: 0;
 	margin-bottom: 10px;
@@ -1146,6 +1150,7 @@ ul.nav-menu {
 
 .cta-form input[type=submit] {
 	flex: 1;
+	font-weight: 600;
 	color: #FFF;
 	background-color: #E87F30;
 	text-transform: uppercase;
@@ -1177,6 +1182,7 @@ ul.nav-menu {
 	display: flex;
 	flex-flow: row wrap;
 
+	align-items: center;
 	/*outline: solid 1px red;*/
 }
 
@@ -1186,13 +1192,12 @@ ul.nav-menu {
 	display: flex;
 	flex-flow: row wrap;
 	flex-shrink: 1;
-	flex-basis: 800px;
+	flex-basis: 600px;
 
-	margin-right: 50px;
+	margin-right: 20px;
 
 	/*outline: solid 1px green;*/
 
-	/*justify-content: center;*/
 }
 
 .event .main .headline h1,
@@ -1220,8 +1225,8 @@ ul.nav-menu {
 	flex-shrink: 0;
 
 	border-radius: 50%;
-	width: 180px;
-	height: 180px;
+	width: 160px;
+	height: 160px;
 	background-color: white;
 
 	/*outline: solid 1px yellow;*/
@@ -1256,8 +1261,8 @@ ul.nav-menu {
 	margin:48px 0 8px 0;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 78px;
-	line-height: 1.0em;
+	font-size: 74px;
+	line-height: 0.9em;
 	letter-spacing: -0.035em;
 	color: #FFFFFF;
 }
@@ -1267,8 +1272,8 @@ ul.nav-menu {
 	text-transform: uppercase;
 
 	font-weight: 200;
-	font-size: 38px;
-	letter-spacing: 2px;
+	font-size: 36px;
+	letter-spacing: 4px;
 	color: #FFFFFF;
 	line-height: 1.0em;
 }
@@ -1292,7 +1297,7 @@ ul.nav-menu {
 
 p.quote {
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 28px;
 	color: rgba(0,0,0,0.70);
 	line-height: 1.3em;
 
@@ -1379,7 +1384,8 @@ p.attribution {
 }
 
 .section-content {
-	/*margin: auto;*/
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 800px;
 }
 
@@ -1476,18 +1482,22 @@ footer a:hover {
 	}*/
 }
 
-@media all and (max-width: 600px) {
+@media all
+	and (max-width: 600px) {
 
 	.section {
 		padding: 68px 28px;
+		transition: all 0.5s ease-in-out;
 	}
 
 	.thin-section {
 		padding: 28px 28px;
+		transition: all 0.5s ease-in-out;
 	}
 
 	header {
 		padding: 20px 28px;
+		transition: all 0.5s ease-in-out;
 	}
 
 	.upcoming-events h1 {
@@ -1499,6 +1509,28 @@ footer a:hover {
 		letter-spacing: 3px;
 		line-height: 1.3em;
 	}
+}
+
+@media all
+	and (max-width: 500px) {
+
+	.hero {
+
+		/*background-color: red;*/
+		/*background: #1F4F7F;*/
+
+		background:
+			linear-gradient(-180deg, rgba(31, 79, 127, 1.0) 0%, rgba(31, 79, 127, 0.7) 100%),
+			url('images/hero-placeholder.jpg')
+			no-repeat center center fixed;
+		background-size: cover;
+
+		transition: all 0.5s ease-in-out;
+	}
+
+}
+
+
 
 /*@media all and (min-width: 800px) {*/
   /*.main    { flex: 3 0px; }
