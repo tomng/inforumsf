@@ -56,7 +56,7 @@ get_header(); ?>
 
 						<div class="details">
 							<div class="info">
-								<span class="date">Friday, February 19, 2016</span> / <span class="time">7:00pm-9:00pm</span> / <span class="location">Castro Theatre</span>
+								<span class="date nugget">Friday, February 19, 2016</span><span class="divider"> / </span><span class="time nugget">7:00pm-9:00pm</span><span class="divider"> / </span><span class="location nugget">Castro Theatre</span>
 							</div>
 							<div class="get-tickets">
 								Get Tickets
