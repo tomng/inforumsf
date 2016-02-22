@@ -997,6 +997,7 @@ nav ul.nav-menu {
 
 .nav-menu .page_item {
 	flex-shrink: 0;
+	display: flex;
 
 	text-transform: uppercase;
 	font-size: 14px;
@@ -1004,6 +1005,9 @@ nav ul.nav-menu {
 	color: rgba(0,0,0,0.70);
 	line-height: 18px;
 
+	/*outline: solid 1px red;*/
+
+	text-align: right;
 }
 
 .page_item a {
