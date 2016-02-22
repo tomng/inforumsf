@@ -1064,6 +1064,10 @@ ul.nav-menu {
 	/*outline: solid 1px blue;*/
 }
 
+.hero .cursor {
+	font-weight: 100;
+}
+
 .cta-form {
 	display: flex;
 	font-size:22px;
@@ -1202,6 +1206,7 @@ ul.nav-menu {
 
 .event .main .headline h1,
 .event .main .headline h2 {
+
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -1214,10 +1219,24 @@ ul.nav-menu {
 }
 
 .event .main .headline h1 {
+	font-size: 74px;
+	line-height: 0.9em;
+	letter-spacing: -0.035em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
 	padding-bottom: 10px;
+	/*font-family: SourceSansPro-Bold;*/
 }
 
 .event .main .headline h2 {
+	font-weight: 200;
+	font-size: 36px;
+	letter-spacing: 4px;
+	color: #FFFFFF;
+	line-height: 1.0em;
+	text-transform: uppercase;
+
 	padding-bottom: 20px;
 }
 
@@ -1255,27 +1274,6 @@ ul.nav-menu {
 	font-weight: 300;
 	color: rgba(255,255,255,.8);
 	line-height: 1.2em;
-}
-
-.upcoming-events h1 {
-	margin:48px 0 8px 0;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 74px;
-	line-height: 0.9em;
-	letter-spacing: -0.035em;
-	color: #FFFFFF;
-}
-
-.upcoming-events h2 {
-	margin: 0 0 20px 0;
-	text-transform: uppercase;
-
-	font-weight: 200;
-	font-size: 36px;
-	letter-spacing: 4px;
-	color: #FFFFFF;
-	line-height: 1.0em;
 }
 
 .upcoming-events .info {
@@ -1427,7 +1425,7 @@ p.attribution {
 --------------------------------------------------------------*/
 
 h1 {
-	font-family: SourceSansPro-Bold;
+	font-weight: 700;
 	font-size: 56px;
 	color: rgba(0,0,0,0.70);
 	line-height: 56px;
@@ -1500,11 +1498,11 @@ footer a:hover {
 		transition: all 0.5s ease-in-out;
 	}
 
-	.upcoming-events h1 {
+	.event .main .headline h1 {
 		font-size: 58px;
 	}
 
-	.upcoming-events h2 {
+	.event .main .headline h2 {
 		font-size: 24px;
 		letter-spacing: 3px;
 		line-height: 1.3em;
@@ -1526,6 +1524,18 @@ footer a:hover {
 		background-size: cover;
 
 		transition: all 0.5s ease-in-out;
+	}
+
+	.hero {
+	min-height: 480px;
+	}
+
+	.hero h1 {
+		font-size: 42px;
+	}
+
+	.hero h2 {
+		font-size: 28px;
 	}
 
 }

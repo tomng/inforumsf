@@ -12,11 +12,10 @@ get_header(); ?>
 
 			<div class="hero section section-dark">
 				<div class="section-content">
-					<h1>Meet thinkers shaping what matters to you</h1>
+					<h1>Meet</br/><span id="caption"></span><span id="cursor" class="cursor">|</span> <br/>shaping what</br/>matters to you</h1>
 					<h2>In person, live in San Francisco.</h2>
 				</div>
 			</div>
-
 
 			<div class="thin-section section-medium">
 				<div class="section-content">
@@ -110,9 +109,98 @@ get_header(); ?>
 				</div>
 			</div>
 
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+
+	<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script type="text/javascript">
+
+		var captionLength = 0;
+		var caption = '';
+
+		var characterTypeDelay = 120; // in ms
+		var characterEraseDelay = 80; // in ms
+		var firstWordTypeDelay = 1000;
+		var nextWordTypeDelay = 1000;
+		var wordEraseDelay = 3000;
+
+
+		var captionList = [
+			'changemakers',
+			'leaders',
+			'thinkers',
+			'makers',
+			'entrepreneurs',
+			'activists',
+			'storytellers',
+			'scientists',
+			'authors',
+			'artists',
+			'educators'
+		];
+		var captionIndex = 0;
+
+
+		$(document).ready(function() {
+				console.log('hi');
+
+		    setInterval ('cursorAnimation()', 600);
+		    captionEl = $('#caption');
+
+				setTimeout('typeNextPerson()', firstWordTypeDelay);
+
+		});
+
+		function typeNextPerson() {
+			caption = captionList[captionIndex++ % captionList.length];
+			captionLength = 0;
+			type();
+		}
+
+		function type() {
+		    captionEl.html(caption.substr(0, captionLength++));
+		    if(captionLength < caption.length+1) {
+		        setTimeout('type()', characterTypeDelay);
+		    } else {
+		        // captionLength = 0;
+		        // caption = '';
+						setTimeout('eraseAndContinue()', wordEraseDelay)
+		    }
+		}
+
+		// function testErasingEffect() {
+		//     caption = captionEl.html();
+		//     captionLength = caption.length;
+		//     if (captionLength>0) {
+		//         erase();
+		//     } else {
+		//         $('#caption').html("You didn't write anything to erase, but that's ok!");
+		//         setTimeout('testErasingEffect()', 1000);
+		//     }
+		// }
+
+		function eraseAndContinue() {
+		    captionEl.html(caption.substr(0, captionLength--));
+		    if(captionLength >= 0) {
+		        setTimeout('eraseAndContinue()', characterEraseDelay);
+		    } else {
+		        // captionLength = 0;
+		        // caption = '';
+						setTimeout('typeNextPerson()', nextWordTypeDelay);
+		    }
+		}
+
+		function cursorAnimation() {
+		    $('#cursor').animate({
+		        opacity: 0
+		    }, 'fast', 'swing').animate({
+		        opacity: 1
+		    }, 'fast', 'swing');
+		}
+
+</script>
 
 <?php
 get_sidebar();
