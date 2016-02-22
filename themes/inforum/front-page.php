@@ -130,7 +130,7 @@ get_header(); ?>
 
 
 		var captionList = [
-			'world leaders',
+			'leaders',
 			'changemakers',
 			'thinkers',
 			'storytellers',
