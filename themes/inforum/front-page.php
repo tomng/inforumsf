@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<div class="hero section section-dark">
 				<div class="section-content">
-					<h1>Meet</br/><span id="caption"></span><span id="cursor" class="cursor">|</span> <br/>shaping what</br/>matters to you</h1>
+					<h1>Meet</br/><span id="caption" class="typewriter"></span><span id="cursor" class="cursor">|</span> <br/>shaping what</br/>matters to you</h1>
 					<h2>In person, live in San Francisco.</h2>
 				</div>
 			</div>
@@ -29,7 +29,7 @@ get_header(); ?>
 										<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
 								    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 								    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_36e914627db788cc67da179a9_f87f2c9504" tabindex="-1" value=""></div>
-								    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+								    <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe" class="button">
 									</div>
 						    </div>
 						</form>
@@ -43,7 +43,7 @@ get_header(); ?>
 				<div class="section-content">
 
 					<div class="tag">Upcoming Events</div>
-					<p>Grab a drink, bring a friend, and enjoy awesome conversations.</p>
+					<h3>Grab a drink, bring a friend, and enjoy awesome conversations with incredible people.</h3>
 					<div class="event">
 
 						<div class="main">
@@ -120,7 +120,9 @@ get_header(); ?>
 		var captionLength = 0;
 		var caption = '';
 
-		var characterTypeDelay = 120; // in ms
+		var characterTypeDelayMin = 30; // in ms
+		var characterTypeDelayMax = 240; // in ms
+
 		var characterEraseDelay = 80; // in ms
 		var firstWordTypeDelay = 1000;
 		var nextWordTypeDelay = 1000;
@@ -128,13 +130,13 @@ get_header(); ?>
 
 
 		var captionList = [
+			'world leaders',
 			'changemakers',
-			'leaders',
 			'thinkers',
-			'makers',
-			'entrepreneurs',
-			'activists',
 			'storytellers',
+			'entrepreneurs',
+			'makers',
+			'activists',
 			'scientists',
 			'authors',
 			'artists',
@@ -162,7 +164,7 @@ get_header(); ?>
 		function type() {
 		    captionEl.html(caption.substr(0, captionLength++));
 		    if(captionLength < caption.length+1) {
-		        setTimeout('type()', characterTypeDelay);
+		        setTimeout('type()', getCharTypeDelay() );
 		    } else {
 		        // captionLength = 0;
 		        // caption = '';
@@ -198,6 +200,15 @@ get_header(); ?>
 		    }, 'fast', 'swing').animate({
 		        opacity: 1
 		    }, 'fast', 'swing');
+		}
+
+		function getCharTypeDelay() {
+			return getRandomIntInclusive(characterTypeDelayMin,
+				characterTypeDelayMax);
+		}
+
+		function getRandomIntInclusive(min, max) {
+		  return Math.floor(Math.random() * (max - min + 1)) + min;
 		}
 
 </script>

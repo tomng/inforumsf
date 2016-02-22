@@ -1023,17 +1023,42 @@ ul.nav-menu {
 .hero {
 	/*outline: solid 1px red;*/
 
-	background:
+	/*background:
 		linear-gradient(-180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.00) 100%),
 		url('images/hero-placeholder.jpg')
 		no-repeat center center fixed;
+	background-size: cover;*/
+
+	/*background:
+		linear-gradient(-180deg, rgba(31, 79, 127, 1.0) 0%, rgba(31, 79, 127, 0.7) 100%),
+		url('images/hero-placeholder.jpg')
+		no-repeat center center fixed;*/
+
+	/*background:
+		linear-gradient(-180deg, rgba(232, 127, 48, 0.3) 0%, rgba(232, 127, 48, 0.9) 100%),
+		url('images/hero-placeholder.jpg')
+		no-repeat center center fixed;
+*/
+
+	background:
+		linear-gradient(-180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.6) 100%),
+		url('images/hero-placeholder.jpg')
+		no-repeat center center fixed;
+
 	background-size: cover;
 
-	min-height: 640px;
+	min-height: 580px;
 
 	display: flex;
-	flex-flow: column nowrap;
-	justify-content: flex-start;
+	flex-flow: row;
+	align-items: center;
+
+	/*outline: solid 1px green;*/
+}
+
+.hero .section-content {
+	flex: 1;
+	flex-grow: 1;
 
 	/*outline: solid 1px red;*/
 }
@@ -1063,6 +1088,10 @@ ul.nav-menu {
 
 	/*outline: solid 1px blue;*/
 }
+
+.hero .typewriter {
+	color: rgba(232, 127, 48, 1)
+};
 
 .hero .cursor {
 	font-weight: 100;
@@ -1244,8 +1273,8 @@ ul.nav-menu {
 	flex-shrink: 0;
 
 	border-radius: 50%;
-	width: 160px;
-	height: 160px;
+	width: 180px;
+	height: 180px;
 	background-color: white;
 
 	/*outline: solid 1px yellow;*/
@@ -1268,9 +1297,9 @@ ul.nav-menu {
 	margin: 30px 20px 0 0;
 }
 
-.upcoming-events p {
+.upcoming-events h3 {
 	margin-top: 24px;
-	font-size: 22px;
+	font-size: 32px;
 	font-weight: 300;
 	color: rgba(255,255,255,.8);
 	line-height: 1.2em;
@@ -1527,15 +1556,20 @@ footer a:hover {
 	}
 
 	.hero {
-	min-height: 480px;
+		min-height: 480px;
 	}
 
 	.hero h1 {
-		font-size: 42px;
+		font-size: 40px;
 	}
 
 	.hero h2 {
-		font-size: 28px;
+		font-size: 26px;
+	}
+
+	.event .main .photo {
+		width: 150px;
+		height: 150px;
 	}
 
 }
