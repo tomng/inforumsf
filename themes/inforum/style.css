@@ -954,7 +954,6 @@ body {
 
 .site-title {
 	/* INFORUM: */
-	font-family: SourceSansPro-Bold;
 	font-size: 24px;
 	color: rgba(0,0,0,0.70);
 	line-height: 31px;
@@ -1490,6 +1489,10 @@ p.attribution {
 /*--------------------------------------------------------------
 ## Inforum-typography
 --------------------------------------------------------------*/
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 h1 {
 	font-weight: 700;
