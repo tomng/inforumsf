@@ -12,7 +12,7 @@ get_header(); ?>
 
 			<div class="hero section section-dark">
 				<div class="section-content">
-					<h1>Meet</br/><span id="caption" class="typewriter"></span><span id="cursor" class="cursor">|</span> <br/>shaping what</br/>matters to you</h1>
+					<h1>Meet</br/><span id="caption" class="typewriter"></span><span id="cursor" style="font-weight: 100;">|</span> <br/>shaping what</br/>matters to you</h1>
 					<h2>In person, live in San Francisco.</h2>
 				</div>
 			</div>
