@@ -10,10 +10,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div class="hero section section-light">
+			<div class="hero section section-dark">
 
 					<h1>Meet thinkers shaping what matters to you</h1>
-					<p>Inspired, unscripted conversations with leaders in politics, culture, tech, business, social issues, design, and more. <strong>Join us at Inforum.</strong></p>
+					<h2>In person, live in San Francisco.</h2>
 			</div>
 
 			<div class="thin-section section-medium">
