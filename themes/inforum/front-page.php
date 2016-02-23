@@ -43,7 +43,7 @@ get_header(); ?>
 				<div class="section-content">
 
 					<div class="tag">Upcoming Events</div>
-					<h3>Grab a drink, bring a friend, and enjoy awesome conversations with incredible people.</h3>
+					<h3>Grab a drink, bring a friend, and enjoy inspiring conversations.</h3>
 					<div class="event">
 
 						<div class="main">
@@ -69,7 +69,7 @@ get_header(); ?>
 			<div class="section section-medium">
 
 				<div class="section-content">
-					<h2>Make your weeknights memorable</h2>
+					<h2>Make your weeknights memorable.</h2>
 
 					<div class="quotes width-medium">
 						<p class="quote">“INFORUM… has made a habit of programming insightful, celebrity-status speakers to discuss today’s critical issues”</p>
@@ -87,13 +87,13 @@ get_header(); ?>
 
 			<div class="thin-section section-dark" style="padding-bottom: 60px">
 				<div class="section-content">
-					<h2>Join conversations that inspire you</h2>
+					<h2>Join the conversation.</h2>
 
 							<!-- Begin MailChimp Signup Form -->
 							<div id="mc_embed_signup">
 							<form action="//scoutdeck.us9.list-manage.com/subscribe/post?u=36e914627db788cc67da179a9&amp;id=f87f2c9504" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 							    <div id="mc_embed_signup_scroll" class="cta-form">
-										<label for="mce-EMAIL" class="prompt">Get the inside scoop about upcoming Inforum SF events in your inbox.</label>
+										<label for="mce-EMAIL" class="prompt">Get the inside scoop about upcoming events in your inbox.</label>
 
 										<div class="signup">
 											<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
@@ -120,18 +120,19 @@ get_header(); ?>
 		var captionLength = 0;
 		var caption = '';
 
-		var characterTypeDelayMin = 30; // in ms
-		var characterTypeDelayMax = 240; // in ms
+		var characterTypeDelayMin = 80; // in ms
+		var characterTypeDelayMax = 120; // in ms
 
 		var characterEraseDelay = 80; // in ms
 		var firstWordTypeDelay = 1000;
 		var nextWordTypeDelay = 1000;
-		var wordEraseDelay = 3000;
+		var wordEraseDelay = 2500;
 
 
 		var captionList = [
-			'leaders',
+			
 			'changemakers',
+			'leaders',
 			'thinkers',
 			'storytellers',
 			'entrepreneurs',
